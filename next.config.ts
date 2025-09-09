@@ -1,6 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  // Set for GitHub Project Pages: https://USERNAME.github.io/beta-bay
+  basePath: '/beta-bay',
+  assetPrefix: '/beta-bay/',
   output: 'export',
   trailingSlash: true,
   images: {
