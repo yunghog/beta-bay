@@ -89,7 +89,7 @@ export default function Testimonials() {
             </span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-8 leading-relaxed">
-            Discover how we've helped businesses achieve their goals through innovative technology solutions.
+            {"Discover how we've helped businesses achieve their goals through innovative technology solutions."}
           </p>
         </div>
       </section>
@@ -102,8 +102,7 @@ export default function Testimonials() {
               {getStars(5)}
             </div>
             <blockquote className="text-2xl md:text-3xl font-medium mb-8 leading-relaxed">
-              "Beta Bay exceeded our expectations in every way. Their team's technical expertise, 
-              creative problem-solving, and commitment to our success made them the perfect partner for our project."
+              {"Beta Bay exceeded our expectations in every way. Their team's technical expertise, creative problem-solving, and commitment to our success made them the perfect partner for our project."}
             </blockquote>
             <div className="flex items-center justify-center space-x-4">
               <div className="w-20 h-20 bg-white bg-opacity-20 rounded-full flex items-center justify-center">
