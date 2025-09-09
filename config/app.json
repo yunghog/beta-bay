@@ -1,0 +1,50 @@
+{
+  "app": {
+    "name": "Beta Bay",
+    "version": "1.0.0",
+    "description": "Your gateway to innovative solutions and cutting-edge technology",
+    "author": "Beta Bay Team",
+    "url": "https://beta-bay.com",
+    "supportEmail": "support@beta-bay.com"
+  },
+  "features": {
+    "reviews": {
+      "enabled": true,
+      "maxReviewsPerPage": 10,
+      "allowAnonymousReviews": false
+    },
+    "testimonials": {
+      "enabled": true,
+      "maxTestimonialsPerPage": 6,
+      "autoRotate": true,
+      "rotationInterval": 5000
+    },
+    "darkMode": {
+      "enabled": true,
+      "defaultTheme": "system"
+    },
+    "analytics": {
+      "enabled": true,
+      "trackPageViews": true,
+      "trackUserInteractions": true
+    }
+  },
+  "api": {
+    "baseUrl": "https://api.beta-bay.com",
+    "timeout": 10000,
+    "retryAttempts": 3
+  },
+  "ui": {
+    "theme": {
+      "primaryColor": "#3B82F6",
+      "secondaryColor": "#8B5CF6",
+      "accentColor": "#06B6D4"
+    },
+    "breakpoints": {
+      "mobile": "640px",
+      "tablet": "768px",
+      "desktop": "1024px",
+      "wide": "1280px"
+    }
+  }
+}
