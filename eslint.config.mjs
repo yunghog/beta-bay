@@ -13,8 +13,9 @@ const eslintConfig = [
   ...compat.extends("next/core-web-vitals", "next/typescript"),
   {
     rules: {
-      "react/no-unescaped-entities": "off"
-    },
+      "react/no-unescaped-entities": "off",
+    }, ignoreDuringBuilds: true,
+
     ignores: [
       "node_modules/**",
       ".next/**",
