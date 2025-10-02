@@ -1,6 +1,6 @@
 // API client configuration and utilities for Beta Bay
 
-import { API_CONFIG } from '../../config/constants';
+import { API_CONFIG } from '../../../config/constants';
 
 // API Response types
 export interface ApiError {
