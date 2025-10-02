@@ -3,10 +3,16 @@
 import { API_CONFIG } from '../../../config/constants';
 
 // API Response types
-export interface ApiError {
-  message: string;
-  status: number;
-  code?: string;
+export class ApiError extends Error {
+  public status: number;
+  public code?: string;
+
+  constructor(message: string, status: number, code?: string) {
+    super(message);
+    this.name = 'ApiError';
+    this.status = status;
+    this.code = code;
+  }
 }
 
 export class ApiClient {
